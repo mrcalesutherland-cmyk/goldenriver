@@ -10,7 +10,7 @@ requirements = python3,kivy,numpy,pandas,scipy,matplotlib,requests,urllib3,certi
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
-
+android. accept\_sdk\_license = True
 # Android target settings
 android.api = 34
 android.minapi = 21
