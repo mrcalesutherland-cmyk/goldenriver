@@ -30,7 +30,7 @@ jobs:
 
       - name: Build with Buildozer
         run: |
-          buildozer -v android aab
+          buildozer -v android
 
       - name: Upload AAB Artifact
         uses: actions/upload-artifact@v4
