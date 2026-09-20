@@ -22,7 +22,7 @@ jobs:
         run: |
           sudo apt update
           sudo apt install -y git zip unzip openjdk-17-jdk autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev cmake libffi-dev libssl-dev aidl
-yes | sdkmanager \--licenses
+          yes | sdkmanager --licenses
       - name: Install Buildozer & Cython
         run: |
           pip install --upgrade pip
